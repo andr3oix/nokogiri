@@ -31,7 +31,7 @@ sleep 2.0
 
 # Fix RubyGems
 bundle config build.nokogiri "--use-system-libraries --with-xml2-include=${PREFIX}/include/libxml2"
-echo "libxml2 hold" | dpkg --set-selections
-echo "libxslt hold" | dpkg --set-selections
-echo -e "\e[34mINSTALLED SUCCESSFULLY....[\e[92m✓\e[34m]\e[92m\e[0;37m"
+#echo "libxml2 hold" | dpkg --set-selections
+#echo "libxslt hold" | dpkg --set-selections
+#echo -e "\e[34mINSTALLED SUCCESSFULLY....[\e[92m✓\e[34m]\e[92m\e[0;37m"
 sleep 2.0
